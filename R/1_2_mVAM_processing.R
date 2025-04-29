@@ -228,10 +228,5 @@ df_cell %>%
 df_raw_mVAM_zimvacadm2only$p_cell <- model_simple %>% predict(df_raw_mVAM_zimvacadm2only, type = "response",
                                                               allow.new.levels=TRUE)
 
-write_csv(df_raw_mVAM_zimvacadm2only %>% dplyr::select(respondent_id, p_cell), here("data", "processed", "cell_scores_ZIMVAC.csv"))
-
-df_p_cell <- df_raw_mVAM_zimvacadm2only |>filter(obs_year < 2024)|> dplyr::select(respondent_id, p_cell)
-df_p_cell_24 <- df_raw_mVAM_zimvacadm2only |>filter(obs_year >= 2024)|> dplyr::select(respondent_id, p_cell)
-write_csv(df_p_cell, here("data", "processed", "cell_scores_23_ZIMVAC.csv"))
-write_csv(df_p_cell_24, here("data", "processed", "cell_scores_24_ZIMVAC.csv"))
-#write_csv(df_p_cell_24, here("data", "processed", "cell_scores_24_ZIMVAC_synthetic.csv"))
+write_csv(df_raw_mVAM_zimvacadm2only %>% 
+            dplyr::select(respondent_id, p_cell), here("data", "processed", "cell_scores_ZIMVAC.csv"))
