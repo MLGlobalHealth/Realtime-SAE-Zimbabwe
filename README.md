@@ -1,5 +1,5 @@
 # Realtime-SAE-Zimbabwe
-This is a repository for the work "Real-time small area estimation of Food security in Zimbabwe: integrating mobile-phone and face-to-face surveys using joint multilevel regression and poststratification."[arxiv link to be added]
+This is a repository for the work "Real-time small area estimation of Food security in Zimbabwe: integrating mobile-phone and face-to-face surveys using joint multilevel regression and poststratification." ([arXiv](https://arxiv.org/pdf/2505.03517)).
 
 ## Structure of the repository
 The repo should have a `data` folder and a sub-folder `raw` with the following datasets: 
