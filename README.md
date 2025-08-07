@@ -1,6 +1,8 @@
 # Realtime-SAE-Zimbabwe
 This is a repository for the work "Real-time small area estimation of Food security in Zimbabwe: integrating mobile-phone and face-to-face surveys using joint multilevel regression and poststratification." ([arXiv](https://arxiv.org/pdf/2505.03517)).
 
+![](fig/time-series-plot.png)
+
 ## Structure of the repository
 The repo should have a `data` folder and a sub-folder `raw` with the following datasets: 
 * Mobile-phone data: In our analysis, WFP's mVAM survey for Zimbabwe conducted within [Real-time Monitoring system](https://executiveboard.wfp.org/document_download/WFP-135070)
